@@ -33,6 +33,7 @@ function App() {
               element={
                 <Information
                   active={setModalActive}
+                  img="/img/kvart-pereezd.jpg"
                   article="Квартирный, офисный, дачный переезд"
                   info1="Газель от 500 рублей в чай"
                   info2="Грузчики - от 300 рублей в час"
@@ -43,6 +44,7 @@ function App() {
               path="uslugi-i-tseny/perevozka-gruzov"
               element={
                 <Information
+                  img="/img/gruztaxi.jpg"
                   article="Грузовое такси, перевозка грузов"
                   info1="??? рублей за километр"
                   active={setModalActive}
@@ -54,6 +56,7 @@ function App() {
               element={
                 <Information
                   active={setModalActive}
+                  img="https://moneymakerfactory.ru/Pics/verstka/img-721-1547480027.jpg"
                   article="Грузоперевозки газель межгород"
                   info1="Газель от 500 рублей в час"
                   info2="Грузчики - от 300 рублей в час"
@@ -65,6 +68,7 @@ function App() {
               element={
                 <Information
                   active={setModalActive}
+                  img="https://sun9-87.userapi.com/impg/dkHNurWupetMWuCTnqBKMAjN7aoC6ei6gP4XIQ/1Zwog95tJTI.jpg?size=235x170&quality=96&sign=97950671a73ee536b68fb031acf598ba&type=album"
                   article="Грузчики(Только Казань)"
                   info1="Грузчики - от 300 рублей в час"
                 />
@@ -77,7 +81,7 @@ function App() {
                 <CarInfo
                   active={setModalActive}
                   img="/img/3htonnik.png"
-                  article="Трёх Тонник"
+                  article="ТрёхТонник"
                   gruz="Грузоподъёмность: до 3 тонн"
                   length="Длина: 6.1 метра"
                   width="Ширина: 2.45 метра"
@@ -94,7 +98,7 @@ function App() {
                 <CarInfo
                   active={setModalActive}
                   img="/img/5tonnik.jpg"
-                  article="Пяти Тонник"
+                  article="ПятиТонник"
                   gruz="Грузоподъёмность: до 5 тонн"
                   length="Длина: 7.1 метра"
                   width="Ширина: 2.48 метра"
@@ -111,7 +115,7 @@ function App() {
                 <CarInfo
                   active={setModalActive}
                   img="/img/7tonnik.jpg"
-                  article="Семи Тонник"
+                  article="СемиТонник"
                   gruz="Грузоподъёмность: до 7 тонн"
                   length="Длина: 7.2 метра"
                   width="Ширина: 2.48 метра"
@@ -128,7 +132,7 @@ function App() {
                 <CarInfo
                   active={setModalActive}
                   img="/img/10tonnik.jpg"
-                  article="Десяти Тонник"
+                  article="ДесятиТонник"
                   gruz="Грузоподъёмность: до 10 тонн"
                   length="Длина: 6.1 метра"
                   width="Ширина: 2.45 метра"

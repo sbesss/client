@@ -7,10 +7,7 @@ const Information = (props) => {
       <h2>{props.article}</h2>
       <div className={styles.body}>
         <div className={styles.imgblock}>
-          <img
-            src="https://sun7-8.userapi.com/impg/0dPGrsgBZtPkYjyNjPuZQx2CTquZK6bRjlX-Jg/WEyfR5hXWuQ.jpg?size=1242x1244&quality=96&sign=0f489e7d1796f8e0ce33b114c88776d3&type=album"
-            alt="xd"
-          />
+          <img src={props.img} alt="xd" />
         </div>
         <div className={styles.textblock}>
           <p className={styles.divstart}>

@@ -27,7 +27,7 @@ function Modal({ active, setActive }) {
       size,
       weight,
     };
-    const response = await axios.post('http://localhost:8080/sendmail', data);
+    const response = await axios.post('http://45.141.76.175:8080/sendmail', data);
     console.log(response.data);
   };
   return (
