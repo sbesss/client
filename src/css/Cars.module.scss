@@ -1,0 +1,26 @@
+.body {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f1f2f3;
+  border: dashed 2px gold;
+  font-size: clamp(24px, 10vw, 48px);
+  img {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.info {
+  font-size: 15px;
+  padding: 0px 30px 0 30px;
+  color: #1a2e27;
+  p {
+    display: flex;
+    align-self: center;
+  }
+  img {
+    padding-right: 5px;
+  }
+}

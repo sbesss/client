@@ -1,0 +1,67 @@
+.body {
+  text-align: left;
+  display: flex;
+  margin: 0 auto;
+  width: 1000px;
+  button {
+    align-self: start;
+    font-weight: 600;
+    background: white;
+    font-size: 1rem;
+    color: #4f93df;
+    border-radius: 3rem;
+    margin: 25px;
+    padding: 1rem;
+  }
+  button:hover {
+    background-color: lighten(black, 90%);
+  }
+  .zakaz {
+    border: 1px dashed gray;
+    display: run-in;
+    flex-direction: column;
+    border-radius: 7px;
+    text-align: left;
+    margin-bottom: 105px;
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .textblock {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-left: 10px;
+  }
+  .parameters {
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .imgblock {
+    border: 2px solid #d8e0e8;
+    border-radius: 15px;
+    img {
+      width: 350px;
+      height: 100%;
+      border-radius: 13px;
+    }
+  }
+  .infoblock {
+    p {
+      font-weight: bold;
+      color: #111712;
+      display: flex;
+      img {
+        padding-right: 3px;
+        height: 30px;
+        width: 30px;
+      }
+    }
+  }
+}

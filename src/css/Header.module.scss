@@ -1,0 +1,27 @@
+.header {
+  width: 980px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(225px, auto));
+  grid-gap: 1rem;
+  margin: 0 auto;
+  padding: 10px 0;
+  img {
+    width: 200px;
+  }
+  p {
+    align-self: center;
+    margin: 0;
+  }
+
+  .messengers {
+    align-self: center;
+    padding-right: 30px;
+  }
+  .phone {
+    align-self: center;
+  }
+  h4 {
+    margin: 0;
+  }
+}

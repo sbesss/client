@@ -1,0 +1,24 @@
+.blocks {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 225px;
+  background-color: #f1f2f3;
+  margin-bottom: 20px;
+  img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 100%;
+    width: 100%;
+    margin-top: -15px;
+  }
+  p {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+  }
+  a {
+    color: #168c65;
+    text-decoration: none;
+    text-decoration: underline 1px green solid;
+  }
+}
