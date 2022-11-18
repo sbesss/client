@@ -27,7 +27,7 @@ function Modal({ active, setActive }) {
       size,
       weight,
     };
-    const response = await axios.post('http://45.141.76.175:8080/sendmail', data); // http://45.141.76.175:8080/sendmail
+    const response = await axios.post('http://45.141.76.175:8080/sendmail', data); // http://45.141.76.175:8080/sendmail or http://localhost:8080/sendmail
     console.log(response.data);
     document.getElementById('phone').value = '';
     document.getElementById('city1').value = '';
