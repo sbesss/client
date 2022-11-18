@@ -81,7 +81,7 @@ function App() {
                 <CarInfo
                   active={setModalActive}
                   img="/img/3htonnik.png"
-                  article="ТрёхТонник"
+                  article="Трёхтонник"
                   gruz="Грузоподъёмность: до 3 тонн"
                   length="Длина: 6.1 метра"
                   width="Ширина: 2.45 метра"
@@ -98,7 +98,7 @@ function App() {
                 <CarInfo
                   active={setModalActive}
                   img="/img/5tonnik.jpg"
-                  article="ПятиТонник"
+                  article="Пятитонник"
                   gruz="Грузоподъёмность: до 5 тонн"
                   length="Длина: 7.1 метра"
                   width="Ширина: 2.48 метра"
@@ -115,7 +115,7 @@ function App() {
                 <CarInfo
                   active={setModalActive}
                   img="/img/7tonnik.jpg"
-                  article="СемиТонник"
+                  article="Семитонник"
                   gruz="Грузоподъёмность: до 7 тонн"
                   length="Длина: 7.2 метра"
                   width="Ширина: 2.48 метра"
@@ -132,7 +132,7 @@ function App() {
                 <CarInfo
                   active={setModalActive}
                   img="/img/10tonnik.jpg"
-                  article="ДесятиТонник"
+                  article="Десятитонник"
                   gruz="Грузоподъёмность: до 10 тонн"
                   length="Длина: 6.1 метра"
                   width="Ширина: 2.45 метра"
