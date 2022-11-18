@@ -42,10 +42,10 @@ function MainPage() {
           <h2>Наш автопарк</h2>
         </div>
         <div className={styles.list}>
-          <InfoBlock title="ТрёхТонник" img="img/3htonnik.png" to="nash-autopark/3tonnik" />
-          <InfoBlock title="ПятиТонник" img="img/5tonnik.jpg" to="nash-autopark/5tonnik" />
-          <InfoBlock title="СемиТонник" img="/img/7tonnik.jpg" to="nash-autopark/7tonnik" />
-          <InfoBlock title="ДесятиТонник" img="img/10tonnik.jpg" to="nash-autopark/10tonnik" />
+          <InfoBlock title="Трёхтонник" img="img/3htonnik.png" to="nash-autopark/3tonnik" />
+          <InfoBlock title="Пятитонник" img="img/5tonnik.jpg" to="nash-autopark/5tonnik" />
+          <InfoBlock title="Семитонник" img="/img/7tonnik.jpg" to="nash-autopark/7tonnik" />
+          <InfoBlock title="Десятитонник" img="img/10tonnik.jpg" to="nash-autopark/10tonnik" />
           <InfoBlock title="Фура" img="img/fura20tonn.jpg" to="nash-autopark/fura20tonn" />
           <InfoBlock
             title="Газель 3 метра"

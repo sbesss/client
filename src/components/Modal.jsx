@@ -27,8 +27,15 @@ function Modal({ active, setActive }) {
       size,
       weight,
     };
-    const response = await axios.post('http://45.141.76.175:8080/sendmail', data);
+    const response = await axios.post('http://45.141.76.175:8080/sendmail', data); // http://45.141.76.175:8080/sendmail
     console.log(response.data);
+    document.getElementById('phone').value = '';
+    document.getElementById('city1').value = '';
+    document.getElementById('city2').value = '';
+    document.getElementById('street1').value = '';
+    document.getElementById('street2').value = '';
+    document.getElementById('size').value = '';
+    document.getElementById('weight').value = '';
   };
   return (
     <div className={active ? 'modal actiive' : 'modal'} onClick={() => setActive(false)}>
@@ -41,6 +48,7 @@ function Modal({ active, setActive }) {
           <input
             className="input"
             type="number"
+            max="99999999999"
             id="phone"
             required="required"
             placeholder="8 (999) 999-99-99"
@@ -51,6 +59,7 @@ function Modal({ active, setActive }) {
           <div>
             <p>Откуда:</p>
             <input
+              maxlength="25"
               className="input"
               type="text"
               id="city1"
@@ -58,6 +67,7 @@ function Modal({ active, setActive }) {
               value={city1}
               onChange={(e) => setCity1(e.target.value)}></input>
             <input
+              maxlength="25"
               className="input"
               type="text"
               id="street1"
@@ -66,6 +76,7 @@ function Modal({ active, setActive }) {
               onChange={(e) => setStreet1(e.target.value)}></input>
             <p>Куда:</p>
             <input
+              maxlength="25"
               className="input"
               type="text"
               id="city2"
@@ -73,6 +84,7 @@ function Modal({ active, setActive }) {
               value={city2}
               onChange={(e) => setCity2(e.target.value)}></input>
             <input
+              maxlength="25"
               className="input"
               type="text"
               id="street2"
@@ -81,6 +93,7 @@ function Modal({ active, setActive }) {
               onChange={(e) => setStreet2(e.target.value)}></input>
             <p>Габариты:</p>
             <input
+              maxlength="25"
               className="input"
               type="text"
               id="size"
@@ -89,6 +102,7 @@ function Modal({ active, setActive }) {
               onChange={(e) => setSize(e.target.value)}></input>
             <p>Примерный вес:</p>
             <input
+              maxlength="25"
               className="input"
               type="text"
               id="weight"
