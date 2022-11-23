@@ -35,8 +35,6 @@ function App() {
                   active={setModalActive}
                   img="/img/kvart-pereezd.jpg"
                   article="Квартирный, офисный, дачный переезд"
-                  info1="Газель от 500 рублей в чай"
-                  info2="Грузчики - от 300 рублей в час"
                 />
               }
             />
@@ -44,9 +42,8 @@ function App() {
               path="uslugi-i-tseny/perevozka-gruzov"
               element={
                 <Information
-                  img="/img/gruztaxi.jpg"
+                  img="/img/for1/gruztaxi.jpg"
                   article="Грузовое такси, перевозка грузов"
-                  info1="??? рублей за километр"
                   active={setModalActive}
                 />
               }
@@ -56,10 +53,8 @@ function App() {
               element={
                 <Information
                   active={setModalActive}
-                  img="https://moneymakerfactory.ru/Pics/verstka/img-721-1547480027.jpg"
+                  img="https://www.yarcom.ru/sites/default/files/styles/1600x1600/public/services/photo/2017/01/gG3ZBaX-y1iDsbQ.jpg.webp?itok=6d8Cvoe4"
                   article="Грузоперевозки газель межгород"
-                  info1="Газель от 500 рублей в час"
-                  info2="Грузчики - от 300 рублей в час"
                 />
               }
             />
@@ -69,8 +64,7 @@ function App() {
                 <Information
                   active={setModalActive}
                   img="https://sun9-87.userapi.com/impg/dkHNurWupetMWuCTnqBKMAjN7aoC6ei6gP4XIQ/1Zwog95tJTI.jpg?size=235x170&quality=96&sign=97950671a73ee536b68fb031acf598ba&type=album"
-                  article="Грузчики(Только Казань)"
-                  info1="Грузчики - от 300 рублей в час"
+                  article="Грузчики"
                 />
               }
             />
@@ -80,7 +74,7 @@ function App() {
               element={
                 <CarInfo
                   active={setModalActive}
-                  img="/img/3htonnik.png"
+                  img="/img/for1/3htonnik.png"
                   article="Трёхтонник"
                   gruz="Грузоподъёмность: до 3 тонн"
                   length="Длина: 6.1 метра"
@@ -97,7 +91,7 @@ function App() {
               element={
                 <CarInfo
                   active={setModalActive}
-                  img="/img/5tonnik.jpg"
+                  img="/img/for1/5tonnik.jpg"
                   article="Пятитонник"
                   gruz="Грузоподъёмность: до 5 тонн"
                   length="Длина: 7.1 метра"
@@ -114,7 +108,7 @@ function App() {
               element={
                 <CarInfo
                   active={setModalActive}
-                  img="/img/7tonnik.jpg"
+                  img="/img/for1/7tonnik.jpg"
                   article="Семитонник"
                   gruz="Грузоподъёмность: до 7 тонн"
                   length="Длина: 7.2 метра"
@@ -131,7 +125,7 @@ function App() {
               element={
                 <CarInfo
                   active={setModalActive}
-                  img="/img/10tonnik.jpg"
+                  img="/img/for1/10tonnik.jpg"
                   article="Десятитонник"
                   gruz="Грузоподъёмность: до 10 тонн"
                   length="Длина: 6.1 метра"
@@ -148,7 +142,7 @@ function App() {
               element={
                 <CarInfo
                   active={setModalActive}
-                  img="/img/fura20tonn.jpg"
+                  img="/img/for1/fura20tonn.jpg"
                   article="Фура"
                   gruz="Грузоподъёмность: до 20 тонн"
                   length="Длина: 13.6 метра"
@@ -165,7 +159,7 @@ function App() {
               element={
                 <CarInfo
                   active={setModalActive}
-                  img="/img/gazel3metra.jpg"
+                  img="/img/for1/gazel3metra.jpg"
                   article="Газель 3 метра"
                   gruz="Грузоподъёмность: до 2 тонн"
                   length="Длина: 3 метра"
@@ -182,7 +176,7 @@ function App() {
               element={
                 <CarInfo
                   active={setModalActive}
-                  img="/img/gazel4metra.jpg"
+                  img="/img/for1/gazel4metra.jpg"
                   article="Газель 4 метра"
                   gruz="Грузоподъёмность: до 2 тонн"
                   length="Длина: 4 метра"
@@ -199,7 +193,7 @@ function App() {
               element={
                 <CarInfo
                   active={setModalActive}
-                  img="/img/gazel5metrov.jpg"
+                  img="/img/for1/gazel5metrov.jpg"
                   article="Газель 5 метров"
                   gruz="Грузоподъёмность: до 2 тонн"
                   length="Длина: 5 метра"
@@ -216,7 +210,7 @@ function App() {
               element={
                 <CarInfo
                   active={setModalActive}
-                  img="/img/gazel6metrov.jpg"
+                  img="/img/for1/gazel6metrov.jpg"
                   article="Газель 6 метров"
                   gruz="Грузоподъёмность: до 2 тонн"
                   length="Длина: 6.1 метра"
@@ -233,7 +227,7 @@ function App() {
               element={
                 <CarInfo
                   active={setModalActive}
-                  img="/img/gazel4metra.jpg"
+                  img="/img/for1/gazel4metra.jpg"
                   article="Газель Рефрижератор"
                   gruz="Грузоподъёмность: до 2 тонн"
                   length="Длина: 6.1 метра"

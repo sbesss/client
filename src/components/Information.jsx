@@ -21,11 +21,8 @@ const Information = (props) => {
               имеются упаковочные материалы, ремни, стяжки
             </p>
             <p>
-              <img
-                src="https://sun9-27.userapi.com/impg/MFXCEn7shEnaahX4i2UtXixKAjQJEB1NFlHq7g/nuu2IqEVHdI.jpg?size=30x30&quality=96&sign=37704d847a12d60ab52b87262731b248&type=album"
-                alt="xd"
-              />
-              Сильные и ответственные грузчики(только Казань!)
+              <img src="https://cdn-icons-png.flaticon.com/512/33/33308.png" alt="xd" />
+              Сильные и ответственные грузчики
             </p>
             <p>
               <img src="https://cdn-icons-png.flaticon.com/512/109/109613.png" alt="xd" />
