@@ -3,6 +3,9 @@
   max-width: 1200px;
   .imagebutton {
     text-align: right;
+    img {
+      border: 1px solid black;
+    }
   }
   .textdiv {
     text-align: left;

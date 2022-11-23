@@ -16,7 +16,7 @@ function Header() {
         круглосуточно!
       </p>
       <div className={styles.messengers}>
-        <p>Viber и Whatsapp для заказа:</p>
+        <p>Номер для заказа Viber/Whatsapp/Telegram:</p>
         <h4>8 (905) 370-56-62</h4>
       </div>
       <div className={styles.phone}>
